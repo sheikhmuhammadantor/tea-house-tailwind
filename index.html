@@ -26,10 +26,9 @@
 
     <!-- Main Body Screen Content Width:1440px -->
     <main class="max-w-[1440px] w-[calc(100%-5rem)] md:w-[calc(100%-8rem)] mx-auto min-h-screen mt-10">
-        <hr>
 
         <!-- Hero Section -->
-        <section class="md:flex md:justify-between hidden">
+        <section class="md:flex md:justify-between">
             <!-- Hero Right Content -->
             <div class="md:w-1/2 place-content-center">
                 <h1 class="text-6xl font-semibold mb-7">
@@ -66,7 +65,7 @@
         </section>
 
         <!-- Featured Products Section -->
-        <section class="mt-20 text-center hidden">
+        <section class="mt-20 text-center">
             <h1 class="text-5xl font-bold mb-10">
                 Our Featured Products
             </h1>
@@ -128,7 +127,7 @@
         </section>
 
         <!-- Presented Section -->
-        <section class="mt-40 md:flex items-center gap-5 hidden">
+        <section class="mt-40 md:flex items-center gap-5">
 
             <!-- Presented Tre -->
             <div class="grid grid-cols-2 grid-rows-3 gap-6 md:w-1/2 mb-12 md:mb-[0]">
@@ -173,59 +172,72 @@
         </section>
 
         <!-- Clients Section -->
-        <section class="mt-20 bg-gradient-to-l from-[#FF0000] to-[#FF8938] text-white rounded-xl p-10 md:flex md:justify-between gap-3">
+        <section
+            class="mt-20 bg-gradient-to-l from-[#FF0000] to-[#FF8938] text-white rounded-xl p-10 md:flex md:justify-between gap-3">
+
+            <!-- Clients Content -->
             <div class="mb-8 md:mb-[0] md:w-1/2 flex flex-col justify-center">
                 <h1 class="text-5xl font-bold">
                     Meet Our Super <br> Clients
                 </h1>
                 <p class="text-gray-200 font-medium mt-5 w-4/5">
                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                    alteration in some form, by injected humour, or randomised words which don't look even slightly
+                    alteration in some form, by injected humour, or randomized words which don't look even slightly
                     believable.
                 </p>
                 <button class="bg-white rounded-lg mt-5 max-w-40">
-                    <p class="bg-gradient-to-l from-[#FF0000] to-[#d66f2b] text-xl font-semibold text-transparent bg-clip-text  px-5 py-2  z-10">
+                    <p
+                        class="bg-gradient-to-l from-[#FF0000] to-[#d66f2b] text-xl font-semibold text-transparent bg-clip-text  px-5 py-2  z-10">
                         Show All
                     </p>
                 </button>
             </div>
+
+            <!-- Clients Cards -->
             <div class="flex flex-col justify-center items-end gap-5 md:w-1/2 relative">
+
+                <!-- Clients Cards 1 -->
                 <div class="bg-white py-3 px-8 rounded-xl max-w-[340px]  opacity-35">
-                    <img class="max-w-14" src="./images/client.png" alt="Client Profile">
+                    <img class="max-w-14 hover:ring-2 rounded-full ring-offset-2 duration-200" src="./images/client.png" alt="Client Profile">
                     <p class="text-gray-500 font-medium">
-                        We are providing the best and suitable home insurance services for the people who are interested to
+                        We are providing the best and suitable home insurance services for the people who are interested
+                        to
                         treatment
                     </p>
                     <h2 class="text-xl font-semibold text-black">
-                        Ilham Yuda
+                        Liam Yoda
                     </h2>
                     <p class="text-gray-500 font-medium">
                         Businessman
                     </p>
                 </div>
 
+                <!-- Clients Cards 2 -->
                 <div class="bg-white py-3 px-8 rounded-xl max-w-[340px] absolute z-10 self-start">
-                    <img class="max-w-14" src="./images/client.png" alt="Client Profile">
+                    <img class="max-w-14 hover:ring-2 rounded-full ring-offset-2 duration-200" src="./images/client.png" alt="Client Profile">
                     <p class="text-gray-500 font-medium">
-                        We are providing the best and suitable home insurance services for the people who are interested to
+                        We are providing the best and suitable home insurance services for the people who are interested
+                        to
                         treatment
                     </p>
                     <h2 class="text-xl font-semibold text-black">
-                        Ilham Yuda
+                        Liam Yoda
                     </h2>
                     <p class="text-gray-500 font-medium">
                         Businessman
                     </p>
                 </div>
 
+                <!-- Clients Cards 3 -->
                 <div class="bg-white py-3 px-8 rounded-xl max-w-[340px]  opacity-35">
-                    <img class="max-w-14" src="./images/client.png" alt="Client Profile">
+                    <img class="max-w-14 hover:ring-2 rounded-full ring-offset-2 duration-200" src="./images/client.png" alt="Client Profile">
                     <p class="text-gray-500 font-medium">
-                        We are providing the best and suitable home insurance services for the people who are interested to
+                        We are providing the best and suitable home insurance services for the people who are interested
+                        to
                         treatment
                     </p>
                     <h2 class="text-xl font-semibold text-black">
-                        Ilham Yuda
+                        Liam Yoda
                     </h2>
                     <p class="text-gray-500 font-medium">
                         Businessman
@@ -235,7 +247,7 @@
         </section>
 
         <!-- Event Section -->
-        <section class="mt-20 flex flex-col gap-7 justify-center items-center hidden">
+        <section class="mt-20 flex flex-col gap-7 justify-center items-center">
             <h1 class="text-5xl font-bold">
                 News & Events
             </h1>
@@ -250,8 +262,8 @@
 
                 <!-- News 1 -->
                 <div class="border-2 w-96 border-gray-400 flex flex-col gap-3 rounded-xl p-5">
-                    <img class="" src="./images/news-1.png" alt="Featured Tea Image">
-                    <p class="text-gray-500 font-medium">
+                    <img class="duration-200 hover:ring-2 ring-green-500 ring-offset-2 rounded-xl" src="./images/news-1.png" alt="Featured Tea Image">
+                    <p class="text-gray-500 font-medium cursor-pointer hover:underline w-24">
                         Feb 05, 2023
                     </p>
                     <h2 class="text-2xl font-bold">
@@ -260,14 +272,14 @@
                     <p class="text-gray-500 font-medium w-4/5">
                         There are many variations of passages of Lorem Ipsum available.
                     </p>
-                    <h2 class="text-xl font-bold">
+                    <h2 class="text-xl font-bold hover:underline cursor-pointer w-28">
                         Learn More
                     </h2>
                 </div>
                 <!-- News 2 -->
                 <div class="border-2 w-96 border-gray-400 flex flex-col gap-3 rounded-xl p-5">
-                    <img class="" src="./images/news-2.png" alt="Featured Tea Image">
-                    <p class="text-gray-500 font-medium">
+                    <img class="duration-200 hover:ring-2 ring-orange-500 ring-offset-2 rounded-xl" src="./images/news-2.png" alt="Featured Tea Image">
+                    <p class="text-gray-500 font-medium cursor-pointer hover:underline w-24">
                         Feb 05, 2023
                     </p>
                     <h2 class="text-2xl font-bold">
@@ -276,14 +288,14 @@
                     <p class="text-gray-500 font-medium w-4/5">
                         There are many variations of passages of Lorem Ipsum available.
                     </p>
-                    <h2 class="text-xl font-bold">
+                    <h2 class="text-xl font-bold hover:underline cursor-pointer w-28">
                         Learn More
                     </h2>
                 </div>
                 <!-- News 3 -->
                 <div class="border-2 w-96 border-gray-400 flex flex-col gap-3 rounded-xl p-5">
-                    <img class="" src="./images/news-3.png" alt="Featured Tea Image">
-                    <p class="text-gray-500 font-medium">
+                    <img class="duration-200 hover:ring-2 ring-red-500 ring-offset-2 rounded-xl" src="./images/news-3.png" alt="Featured Tea Image">
+                    <p class="text-gray-500 font-medium cursor-pointer hover:underline w-24">
                         Feb 05, 2023
                     </p>
                     <h2 class="text-2xl font-bold">
@@ -292,7 +304,7 @@
                     <p class="text-gray-500 font-medium w-4/5">
                         There are many variations of passages of Lorem Ipsum available.
                     </p>
-                    <h2 class="text-xl font-bold">
+                    <h2 class="text-xl font-bold hover:underline cursor-pointer w-28">
                         Learn More
                     </h2>
                 </div>
