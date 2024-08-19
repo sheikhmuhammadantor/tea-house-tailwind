@@ -18,14 +18,16 @@
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- CSS StyleSheet -->
+    <link rel="stylesheet" href="./test.css">
 </head>
 
 <body>
 
     <!-- Main Body Screen Content Width:1440px -->
     <main class="max-w-[1440px] w-[calc(100%-5rem)] md:w-[calc(100%-8rem)] mx-auto min-h-screen mt-10">
-        <!-- Hero Section -->
 
+        <!-- Hero Section -->
         <section class="md:flex md:justify-between">
             <!-- Hero Right Content -->
             <div class="md:w-1/2 place-content-center">
@@ -63,22 +65,22 @@
         </section>
 
         <!-- Featured Products Section -->
-        <section class="mt-20 flex flex-col gap-7 justify-center items-center">
-            <h1 class="text-5xl font-bold">
+        <section class="mt-20 text-center">
+            <h1 class="text-5xl font-bold mb-10">
                 Our Featured Products
             </h1>
-            <p class="text-gray-500 font-medium text-center md:w-4/5">
+            <p class="text-gray-500 font-medium text-center md:w-4/5 mb-10 mx-auto">
                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                 alteration in some form, by injected humour, or randomized words which don't look even slightly
                 believable.
             </p>
 
             <!-- Feature Tea Section -->
-            <div class="flex flex-col md:flex-row flex-wrap gap-6 justify-center">
+            <div class="flex flex-col md:flex-row flex-wrap gap-10 items-center md:justify-between">
 
                 <!-- Feature Tea 1 -->
                 <div
-                    class="bg-gradient-to-b from-slate-200 to-slate-50 flex flex-col items-center gap-3 rounded-xl py-5">
+                    class="bg-gradient-to-b from-slate-100 to-slate-50 flex flex-col items-center gap-3 rounded-xl py-5">
                     <img src="./images/tea-1.png" alt="Featured Tea Image">
                     <h2 class="text-2xl font-bold">
                         Green Tea
@@ -89,7 +91,7 @@
                 </div>
                 <!-- Feature Tea 2 -->
                 <div
-                    class="bg-gradient-to-b from-slate-200 to-slate-50 flex flex-col items-center gap-3 rounded-xl py-5">
+                    class="bg-gradient-to-b from-slate-100 to-slate-50 flex flex-col items-center gap-3 rounded-xl py-5">
                     <img src="./images/tea-2.png" alt="Featured Tea Image">
                     <h2 class="text-2xl font-bold">
                         Milk Tea
@@ -100,7 +102,7 @@
                 </div>
                 <!-- Feature Tea 3 -->
                 <div
-                    class="bg-gradient-to-b from-slate-200 to-slate-50 flex flex-col items-center gap-3 rounded-xl py-5">
+                    class="bg-gradient-to-b from-slate-100 to-slate-50 flex flex-col items-center gap-3 rounded-xl py-5">
                     <img src="./images/tea-3.png" alt="Featured Tea Image">
                     <h2 class="text-2xl font-bold">
                         Black Tea
@@ -111,7 +113,7 @@
                 </div>
                 <!-- Feature Tea 4 -->
                 <div
-                    class="bg-gradient-to-b from-slate-200 to-slate-50 flex flex-col items-center gap-3 rounded-xl py-5">
+                    class="bg-gradient-to-b from-slate-100 to-slate-50 flex flex-col items-center gap-3 rounded-xl py-5">
                     <img src="./images/tea-4.png" alt="Featured Tea Image">
                     <h2 class="text-2xl font-bold">
                         Lemon Tea
@@ -123,14 +125,55 @@
 
             </div>
         </section>
-        <hr>
 
         <!-- Presented Section -->
-        <section></section>
+        <section class="mt-40 md:flex items-center gap-5">
+
+            <!-- Presented Tre -->
+            <div class="grid grid-cols-2 grid-rows-3 gap-6 md:w-1/2 mb-12 md:mb-[0]">
+                <div class="col-span-1 bg-gradient-to-r from-red-100 rounded-lg">
+
+                </div>
+                <div class="col-span-1 bg-red-50 row-span-2 rounded-lg py-6">
+                    <img class="mx-auto h-56" src="./images/fresh-1.png" alt="Fresh Tea 1">
+                </div>
+                <div class="col-span-1 bg-slate-100 row-span-2 rounded-lg py-6">
+                    <img class="mx-auto h-56" src="./images/fresh-2.png" alt="Fresh Tre 2">
+                </div>
+                <div class="col-span-1 bg-gradient-to-r from-slate-200 rounded-lg">
+
+                </div>
+            </div>
+
+            <!-- Test & Quality -->
+            <div class="md:w-1/2 ml-8">
+                <h1 class="text-4xl font-bold mb-8">
+                    Great Tea, Freshly <br> Presented
+                </h1>
+                <p class="text-gray-500 font-medium mb-6 md:w-4/5">
+                    The meaning of gong cha is chinese is to provide the best tea to emperor from all possessions . It
+                    represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply
+                    appreciated by its customers because of good words of mouth and unique customized service originated
+                    from Taiwan.
+                </p>
+                <h2 class="text-xl font-bold mb-3">
+                    Unique Taste
+                </h2>
+                <p class="text-gray-500 font-medium mb-4 md:w-4/5">
+                    A Unique and different style from other teapots gives a luxurious and minimalist impression
+                </p>
+                <h2 class="text-xl font-bold mb-3">
+                    Premium Quality
+                </h2>
+                <p class="text-gray-500 font-medium md:w-4/5">
+                    Premium Quality that makes tea more elegant and more durable when you use it.
+                </p>
+            </div>
+        </section>
 
         <!-- Clients Section -->
         <section></section>
-        
+
         <!-- Event Section -->
         <section class="mt-20 flex flex-col gap-7 justify-center items-center">
             <h1 class="text-5xl font-bold">
@@ -197,6 +240,7 @@
             </div>
         </section>
 
+        <hr>
     </main>
 
 </body>
